@@ -11,7 +11,7 @@ def create_gui():
     icon = tk.PhotoImage(file="Seed_Recovery-main/seed_recovery.png")
     root.iconphoto(False, icon)
     root.title("Seed Phrase Recovery")
-    root.geometry("1000x580")
+    root.geometry("920x580")
     root.config(bg=background_color)
 
     style = ttk.Style()
