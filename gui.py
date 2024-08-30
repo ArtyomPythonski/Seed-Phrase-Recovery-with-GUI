@@ -23,7 +23,7 @@ def create_gui():
     tab1 = create_tab1(notebook)
     tab2 = create_tab2(notebook)
     notebook.add(tab1, text="Unknown Words", sticky="nsew")
-    notebook.add(tab2, text="Knwon Words", sticky="nsew")
+    notebook.add(tab2, text="Known Words", sticky="nsew")
     notebook.pack(fill=tk.BOTH, expand=True)
 
     root.mainloop()
